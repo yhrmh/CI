@@ -1,0 +1,121 @@
+.container{
+    width: 100%;
+    min-width: 1280px;
+    font-family: 'Microsoft YaHei';
+}
+header{
+    width: 100%;
+    height: 60px;
+    font-size: 0;
+}
+header .banner-left{
+    height: 60px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+    
+    position: relative;
+    left: 7%;
+    
+    background: url(images/icon.png) no-repeat left;
+    background-size: auto 60px;
+}
+header .banner-left h1{
+    color: #4E3A4F;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+#section-1 {
+    width: 100%;
+    height: 650px;
+    margin-top: 0;
+    background-image: url(images/96758PICBva.jpg);
+    background-size: 100% auto;
+}
+#section-1 .mes{
+    position: absolute;
+    top: 270px;
+    left: 120px;
+}
+#section-1 .mes p{
+    font-size: 22px;
+    color: black;
+    margin: 0;
+}
+#section-1 .mes p:first-child{
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+#section-1 .mes p:last-of-type{
+    margin-bottom: 60px;
+}
+
+#section-1 .mes span{
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    background: #E53C3C;
+    cursor: pointer;
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#section-1 .mes span:hover{
+    background: #E31212;
+    border-radius: 3px;
+}
+#section-2{
+    width: 100%;
+    height: 240px;
+    font-size: 0;
+}
+#section-2 .cell{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+#section-2 .cell .img{
+    display: inline-block;
+    line-height: 130px;
+
+}
+#section-2 .cell .img img{
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 30px;
+}
+#section-2 .cell .mes{
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 2px solid #534141;
+}
+
+#section-2 .cell:last-child .mes{
+    border:none;
+}
+#section-2 .cell .mes .button {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 35px;
+    border: 1px solid black;
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+}
